@@ -12,7 +12,23 @@ const PORT = process.env.PORT || 3001;
 
 // CORS configuration for production
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // Allow localhost for development
+    if (origin.includes('localhost')) return callback(null, true);
+    
+    // Allow all Vercel deployments (production and preview)
+    if (origin.includes('vercel.app')) return callback(null, true);
+    
+    // Check against environment variable
+    const allowedOrigins = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.split(',') : [];
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    
+    // Reject other origins
+    callback(new Error('Not allowed by CORS'));
+  },
   credentials: true,
   optionsSuccessStatus: 200
 };
