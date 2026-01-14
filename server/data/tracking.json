@@ -1,0 +1,535 @@
+{
+  "files": {
+    "d9ff9f34db89c5c43f99e7b0e5849880": {
+      "hash": "d9ff9f34db89c5c43f99e7b0e5849880",
+      "timestamp": "2026-01-14T16:23:09.386Z",
+      "outputFileName": "sanitized-1768407787911.zip",
+      "report": {
+        "junkFilesRemoved": 4,
+        "imagesOptimized": 2,
+        "filesMinified": 15,
+        "pathsNormalized": 7,
+        "beforeSize": 5452756,
+        "afterSize": 2644140,
+        "malwareScan": {
+          "scanned": 152,
+          "threatsFound": 11,
+          "suspiciousFiles": [
+            {
+              "file": "about.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 3
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "chatbot.js",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 1
+                },
+                {
+                  "pattern": "innerHTML\\s*=",
+                  "count": 2
+                },
+                {
+                  "pattern": "\\.appendChild\\s*\\(",
+                  "count": 2
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "contact.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 3
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "e-commerce.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 3
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "healthcare.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 3
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "index.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 3
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 6
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "industries.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 8
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "real-estate.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 3
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "responsive-chatbot-code.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 1
+                },
+                {
+                  "pattern": "innerHTML\\s*=",
+                  "count": 2
+                },
+                {
+                  "pattern": "\\.appendChild\\s*\\(",
+                  "count": 2
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "script.js",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 4
+                },
+                {
+                  "pattern": "innerHTML\\s*=",
+                  "count": 2
+                },
+                {
+                  "pattern": "\\.appendChild\\s*\\(",
+                  "count": 4
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "services.html",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 6
+                },
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            }
+          ],
+          "obfuscatedFiles": [],
+          "blockedFiles": [],
+          "riskLevel": "medium",
+          "scanTimestamp": "2026-01-14T16:22:59.425Z",
+          "summary": [
+            "⚠️  11 file(s) contain suspicious code patterns"
+          ]
+        },
+        "aiSuggestions": [
+          "✨ Converted 2 images to WebP format, reducing page load time by ~30-50%",
+          "🚀 Minified 15 files, improving download speed and reducing bandwidth",
+          "💡 Consider adding a favicon.ico for better branding",
+          "📱 Add viewport meta tag for mobile responsiveness: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+          "✅ Normalized 7 file paths for Linux/Hostinger compatibility",
+          "🧹 Removed 4 macOS junk files (DS_Store, __MACOSX)"
+        ],
+        "savingsPercent": "51.51"
+      },
+      "beforeStats": {
+        "size": 5452756,
+        "filename": "1768407775572-aigenpro.zip"
+      },
+      "uploadCount": 1
+    },
+    "a2c3acf53b806d1c4064480fdb2faa5c": {
+      "hash": "a2c3acf53b806d1c4064480fdb2faa5c",
+      "timestamp": "2026-01-14T20:52:41.009Z",
+      "outputFileName": "sanitized-1768423959242.zip",
+      "report": {
+        "junkFilesRemoved": 3,
+        "imagesOptimized": 14,
+        "filesMinified": 7,
+        "pathsNormalized": 4,
+        "beforeSize": 93369761,
+        "afterSize": 82304227,
+        "malwareScan": {
+          "scanned": 135,
+          "threatsFound": 6,
+          "suspiciousFiles": [
+            {
+              "file": "about.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "allies.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "contact.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "index.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "podcast.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 3
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "script.js",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 13
+                },
+                {
+                  "pattern": "\\.appendChild\\s*\\(",
+                  "count": 2
+                }
+              ],
+              "threat": "low"
+            }
+          ],
+          "obfuscatedFiles": [],
+          "blockedFiles": [],
+          "riskLevel": "medium",
+          "scanTimestamp": "2026-01-14T20:52:38.795Z",
+          "summary": [
+            "⚠️  6 file(s) contain suspicious code patterns"
+          ]
+        },
+        "aiSuggestions": [
+          "✨ Converted 14 images to WebP format, reducing page load time by ~30-50%",
+          "🚀 Minified 7 files, improving download speed and reducing bandwidth",
+          "💡 Consider adding a favicon.ico for better branding",
+          "🤖 Add robots.txt to control search engine crawling",
+          "🗺️  Create a sitemap.xml to improve SEO",
+          "📱 Add viewport meta tag for mobile responsiveness: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+          "✅ Normalized 4 file paths for Linux/Hostinger compatibility",
+          "🧹 Removed 3 macOS junk files (DS_Store, __MACOSX)"
+        ],
+        "savingsPercent": "11.85"
+      },
+      "beforeStats": {
+        "size": 93369761,
+        "filename": "1768423948108-Anirudh Shankar.zip"
+      },
+      "uploadCount": 1
+    },
+    "91ede0cdb60eb58a5986b0b9cb174a6e": {
+      "hash": "91ede0cdb60eb58a5986b0b9cb174a6e",
+      "timestamp": "2026-01-14T20:56:50.001Z",
+      "outputFileName": "sanitized-1768424209925.zip",
+      "report": {
+        "junkFilesRemoved": 3,
+        "imagesOptimized": 2,
+        "filesMinified": 19,
+        "pathsNormalized": 9,
+        "beforeSize": 1651153,
+        "afterSize": 1453610,
+        "malwareScan": {
+          "scanned": 158,
+          "threatsFound": 18,
+          "suspiciousFiles": [
+            {
+              "file": "agricultural-land-detail.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "business.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "colony-plots-detail.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "commercial-showroom-detail.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "contact.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "disclaimer.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "documents.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "import-export.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "index.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "investors.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "scripts.js",
+              "patterns": [
+                {
+                  "pattern": "Function\\s*\\(",
+                  "count": 2
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "loans.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "migsun-nehru-detail.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "property-list.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "property.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "register-idea.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "tech.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            },
+            {
+              "file": "terms.html",
+              "patterns": [
+                {
+                  "pattern": "<script[^>]*src\\s*=\\s*[\"']https?:\\/\\/[^\"']*[\"']",
+                  "count": 1
+                }
+              ],
+              "threat": "low"
+            }
+          ],
+          "obfuscatedFiles": [],
+          "blockedFiles": [],
+          "riskLevel": "medium",
+          "scanTimestamp": "2026-01-14T20:56:49.717Z",
+          "summary": [
+            "⚠️  18 file(s) contain suspicious code patterns"
+          ]
+        },
+        "aiSuggestions": [
+          "✨ Converted 2 images to WebP format, reducing page load time by ~30-50%",
+          "🚀 Minified 19 files, improving download speed and reducing bandwidth",
+          "📱 Add viewport meta tag for mobile responsiveness: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+          "✅ Normalized 9 file paths for Linux/Hostinger compatibility",
+          "🧹 Removed 3 macOS junk files (DS_Store, __MACOSX)"
+        ],
+        "savingsPercent": "11.96"
+      },
+      "beforeStats": {
+        "size": 1651153,
+        "filename": "1768424209306-fox fundz.zip"
+      },
+      "uploadCount": 1
+    }
+  }
+}
